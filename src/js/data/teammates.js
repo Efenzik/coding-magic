@@ -1,1 +1,7 @@
-export default [{ name: '', surname: '' }];
+export default [
+  { name: '', work: '' },
+  { name: '', work: '' },
+  { name: '', work: '' },
+  { name: '', work: '' },
+  { name: '', work: '' },
+];
