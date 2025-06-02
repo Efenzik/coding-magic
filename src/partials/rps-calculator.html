@@ -1,0 +1,171 @@
+<!-- src/partials/rps-calculator.html -->
+
+<!--
+  PARTIAL FOR TWO GAME SECTIONS:
+  1) Rock–Paper–Scissors
+  2) Calculator
+-->
+
+<!-- 1) GAME: Rock – Paper – Scissors -->
+<div class="rps-game">
+    <h2 class="rps-game__title">Rock – Paper – Scissors</h2>
+  
+    <div class="rps-game__inner">
+  
+      <div class="rps-options">
+        <!-- Each option is a button with an SVG icon.
+             The id attribute will be used in future JS logic. -->
+        <button
+          type="button"
+          class="rps-option rps-option--rock"
+          id="rps-rock"
+          aria-label="Choose rock"
+        >
+          <img
+            src="../images/rps/stone.svg"
+            alt="Rock"
+            class="rps-option__icon"
+          />
+        </button>
+  
+        <button
+          type="button"
+          class="rps-option rps-option--scissors"
+          id="rps-scissors"
+          aria-label="Choose scissors"
+        >
+          <img
+            src="../images/rps/scissors.svg"
+            alt="Scissors"
+            class="rps-option__icon"
+          />
+        </button>
+  
+        <button
+          type="button"
+          class="rps-option rps-option--paper"
+          id="rps-paper"
+          aria-label="Choose paper"
+        >
+          <img
+            src="../images/rps/paper.svg"
+            alt="Paper"
+            class="rps-option__icon"
+          />
+        </button>
+      </div>
+  
+      <!-- Result and score block -->
+      <div class="rps-status">
+        <!-- Score -->
+        <div class="rps-score">
+          <h3 class="rps-score__title">Score:</h3>
+          <p class="rps-score__item">
+            <span class="rps-score__label">Computer – </span>
+            <span class="rps-score__value" id="rps-computer-score">0</span>
+          </p>
+          <p class="rps-score__item">
+            <span class="rps-score__label">You – </span>
+            <span class="rps-score__value" id="rps-player-score">0</span>
+          </p>
+        </div>
+  
+        <!-- Round result message (will be updated dynamically) -->
+        <div
+          class="rps-result"
+          id="rps-round-result"
+          aria-live="polite"
+        >
+          Choose an option to start the game
+        </div>
+  
+        <!-- "Computer's choice" button (appears after player selects) -->
+        <button
+          type="button"
+          class="rps-computer-choice-btn"
+          id="rps-show-computer"
+          disabled
+        >
+          Computer's choice
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <hr class="divider" />
+  
+  <!-- 2) GAME: Calculator -->
+  <div class="calculator">
+    <!-- Section heading -->
+    <h2 class="calculator__title">Calculator</h2>
+  
+    <div class="calculator__inner">
+      <!-- First number input field -->
+      <input
+        type="number"
+        class="calculator__input calculator__input--left"
+        id="calc-input-1"
+        placeholder="Enter number"
+        aria-label="First number"
+      />
+  
+      <!-- Operator buttons block -->
+      <div class="calculator__operators">
+        <button
+          type="button"
+          class="calculator__operator"
+          data-op="add"
+          aria-label="Addition"
+        >
+          +
+        </button>
+        <button
+          type="button"
+          class="calculator__operator"
+          data-op="subtract"
+          aria-label="Subtraction"
+        >
+          −
+        </button>
+        <button
+          type="button"
+          class="calculator__operator"
+          data-op="multiply"
+          aria-label="Multiplication"
+        >
+          ×
+        </button>
+        <button
+          type="button"
+          class="calculator__operator"
+          data-op="divide"
+          aria-label="Division"
+        >
+          ÷
+        </button>
+      </div>
+  
+      <!-- Second number input field -->
+      <input
+        type="number"
+        class="calculator__input calculator__input--right"
+        id="calc-input-2"
+        placeholder="Enter number"
+        aria-label="Second number"
+      />
+  
+      <!-- Equals sign -->
+      <span class="calculator__equals" aria-hidden="true">=</span>
+  
+      <!-- Result output field (read-only) -->
+      <input
+        type="text"
+        class="calculator__result"
+        id="calc-result"
+        placeholder="Result"
+        readonly
+        aria-label="Result"
+      />
+    </div>
+  </div>
+  
