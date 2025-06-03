@@ -5,12 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
   </head>
   <body>
     <main>
       <h1 class="games__title">Популярні інетрактивні ігри</h1>
       <div class="main__container" data-games></div>
+      <h2 class="title">Калькулятор</h2>
+      <div class="box-calculator">
+        <label class="label-for-entering-numbers" for=""
+          ><input
+            type="text"
+            class="input-for-entering-numbers"
+            placeholder="Введіть число"
+        /></label>
+        <div class="box-mathematical_sign">
+          <button class="box-mathematical_sign">
+            <p class="mathematical_sign">+</p>
+          </button>
+          <button class="box-mathematical_sign">
+            <p class="mathematical_sign">-</p>
+          </button>
+          <button class="box-mathematical_sign">
+            <p class="mathematical_sign">*</p>
+          </button>
+          <button class="box-mathematical_sign">
+            <p class="mathematical_sign">/</p>
+          </button>
+        </div>
+        <label class="label-for-entering-numbers" for=""
+          ><input
+            type="text"
+            class="input-for-entering-numbers"
+            placeholder="Введіть число"
+        /></label>
+        <button class="mathematical_sign">=</button>
+        <input type="text" class="input-with-result" placeholder="Результат" />
+      </div>
     </main>
 
     <script type="module" src="./js/main-content.js"></script>

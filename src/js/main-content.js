@@ -13,3 +13,8 @@ const html = games
   .join('');
 
 mainContainer.innerHTML = html;
+games.forEach(game => {
+  if (game.init) {
+    game.init();
+  }
+});
