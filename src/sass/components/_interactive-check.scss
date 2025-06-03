@@ -1,0 +1,43 @@
+ body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+    .interactive__title {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+    .input-group {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+      flex-wrap: wrap;
+    }
+    .interactive__input {
+      padding: 10px;
+      border-radius: 20px 0 0 20px;
+      border: 1px solid #ccc;
+      outline: none;
+      width: 150px;
+      background-color: #D7D7D7;
+    }
+    .interactive__button {
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 0 20px 20px 0;
+      padding: 10px;
+      cursor: pointer;
+}
+.interactive__result.red {
+  margin-top: 10px;
+  padding: 0;
+  color: #039900;
+}
+.interactive__result.green {
+  margin-top: 10px;
+  color: red;
+  padding: 0;
+  margin: 0;
+  padding-left: 151px;
+}
