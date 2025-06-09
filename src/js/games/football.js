@@ -3,7 +3,7 @@ export const footballInit = () => {
   const gameHtml = `<h2 class="game__title">Футбол</h2>
   <div class=" football__field" id="field">
   <div class="football__ball" id="ball">
-  <img class="football__ball--img" alt="ball" src=""></div>
+  <img class="football__ball--img" alt="ball" src="./images/icons/football.svg"></div>
   <div class="underline"></div>
   </div>`;
 
