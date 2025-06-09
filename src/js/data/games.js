@@ -1,5 +1,6 @@
 import { calculatorInit } from '../games/calculator';
 import { leapYearInit } from '../games/leap-year';
+import { quessNumber } from '../games/quess-number'
 export default [
   {
     id: 1,
@@ -13,6 +14,7 @@ export default [
     name: 'Вгадай число',
     category: 'numerical',
     class: 'quess-number',
+    init: quessNumber,
   },
   {
     id: 3,
