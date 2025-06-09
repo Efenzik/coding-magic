@@ -1,5 +1,4 @@
 import games from './data/games.js';
-import { footballInit } from '../games/football.js';
 
 const mainContainer = document.querySelector('[data-games]');
 
