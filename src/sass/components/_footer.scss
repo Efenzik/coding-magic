@@ -1,0 +1,124 @@
+.footer {
+  background-color: #ffffff;
+  padding: 40px 0;
+
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    &__img {
+      max-width: 165px;
+      height: auto;
+    }
+  }
+
+  .contacts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &__item {
+      margin-bottom: 8px;
+      text-align: left; // выравнивание как на второй картинке
+    }
+
+    &__link {
+      text-decoration: none;
+      color: #000000;
+      font-size: 16px;
+      font-weight: 400;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #0099ff;
+      }
+    }
+  }
+
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .subscribe-form {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 5px;
+
+      &__field {
+        position: relative;
+      }
+
+      &__label {
+        display: none;
+      }
+
+      &__input {
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        background-color: #e4e4e4;
+        font-size: 14px;
+        width: 200px;
+
+        &::placeholder {
+          color: #6e6e6e;
+        }
+      }
+
+      &__button {
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #333333;
+        }
+      }
+    }
+
+    .form-info {
+      font-size: 10px;
+      color: #4d4d4d;
+      max-width: 260px;
+    }
+  }
+
+  .subscribe-popup {
+    display: none;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    &__close {
+      background: transparent;
+      border: none;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    &__message {
+      font-size: 14px;
+      color: #000;
+    }
+  }
+}
