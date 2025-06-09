@@ -1,4 +1,6 @@
 import { calculatorInit } from '../games/calculator';
+import { footballInit } from '../games/football';
+
 export default [
   {
     id: 1,
@@ -42,6 +44,7 @@ export default [
     name: 'Футбол',
     category: 'game',
     class: 'football',
+    init: footballInit,
   },
   {
     id: 8,
