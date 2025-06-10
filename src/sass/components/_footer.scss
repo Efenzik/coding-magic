@@ -1,5 +1,5 @@
 .footer {
-  background-color: #ffffff;
+  background-color: $colorTextSecondary;
   padding: 40px 0;
 
   .footer__container {
@@ -30,7 +30,7 @@
 
     &__item {
       margin-bottom: 8px;
-      text-align: left; // выравнивание как на второй картинке
+      text-align: left;
     }
 
     &__link {
@@ -78,8 +78,8 @@
       }
 
       &__button {
-        background-color: #000000;
-        color: #ffffff;
+        background-color: $colorTextPrimary;
+        color: $colorTextSecondary;
         border: none;
         border-radius: 20px;
         padding: 10px 20px;
