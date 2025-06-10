@@ -1,12 +1,12 @@
 import { calculatorInit } from '../games/calculator';
-import { footballInit } from '../games/football';
-
+import { leapYearInit } from '../games/leap-year';
 export default [
   {
     id: 1,
     name: 'Високосний калькулятор',
     category: 'numerical',
     class: 'leap-year',
+    init: leapYearInit,
   },
   {
     id: 2,
