@@ -1,5 +1,6 @@
 import { calculatorInit } from '../games/calculator';
 import { leapYearInit } from '../games/leap-year';
+import { maxNumberGameInit } from '../games/maxbumber';
 export default [
   {
     id: 1,
@@ -50,6 +51,7 @@ export default [
     name: 'Найбільше число',
     category: 'numerical',
     class: 'largest-number',
+    init: maxNumberGameInit,
   },
   {
     id: 9,
