@@ -44,6 +44,7 @@ export default [
     name: 'Футбол',
     category: 'game',
     class: 'football',
+    init: footballInit,
   },
   {
     id: 8,
