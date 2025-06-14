@@ -1,5 +1,6 @@
 import { calculatorInit } from '../games/calculator';
 import { leapYearInit } from '../games/leap-year';
+import { DinosaurInit } from '../games/dinosaur';
 export default [
   {
     id: 1,
@@ -38,6 +39,7 @@ export default [
     name: 'Google динозаврик',
     category: 'game',
     class: 'dinosaur',
+    init: DinosaurInit,
   },
   {
     id: 7,
