@@ -1,11 +1,23 @@
+.game__title {
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+.football {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .football__field {
   position: relative;
   width: 720px;
   height: 220px;
-  background-color: green;
+  background-color: #5abb58;
   border-radius: 37px;
-}
 
+  border: 2px solid #000000;
+}
 .football__ball {
   position: absolute;
   width: 50px;
@@ -14,4 +26,12 @@
   left: 92px;
   z-index: 2;
   transition: top 0.7s ease, left 0.7s ease;
+}
+.football::after {
+  content: '';
+  position: relative;
+  width: 536px;
+  height: 2px;
+  background-color: #00000091;
+  top: 36px;
 }
