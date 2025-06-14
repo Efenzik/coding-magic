@@ -1,0 +1,90 @@
+.rps-game {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $colorTextSecondary;
+  color: $colorTextPrimary;
+
+  &__title {
+    margin: 36px 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .rps-top {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .rps-options-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rps-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+  }
+
+  .rps-option {
+    background-color: $colorTextPrimary;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease, ease 0.1s outline;
+    &__icon {
+      width: 40px;
+      height: 40px;
+    }
+    &:hover,
+    &:focus {
+      box-shadow: 0px 0px 15px -3px rgb(255, 123, 0);
+      transform: scale(0.9);
+      outline: 4px dashed rgb(255, 153, 0);
+      outline-offset: 7px;
+    }
+
+  }
+
+  .rps-score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(208px); 
+    transform: translate(208px, -50%);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .rps-result {
+    margin-top: 36px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .rps-computer-choice-btn {
+    border-radius: 20px;
+    width: 182px;
+    height: 35px;
+    margin: 36px 0;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: $colorTextPrimary;
+    color: $colorTextSecondary;
+  }
+
+  .divider {
+    max-width: 536px;
+    background-color: $colorTextForm;
+    width: 100%;
+  }
+}

@@ -1,24 +1,88 @@
-.title {
-  font-weight: 400;
-  font-size: 16px;
+.calculator {
+  &__title {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 36px;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    margin: 36px 0;
+    flex-wrap: wrap; 
+  }
+
+
+  &__input{
+    box-shadow: $shadowForm;
+  }
+
+  &__input,
+  &__result {
+    background-color: $colorBgForm;
+    color: $colorTextForm; 
+    border-radius: 20px;
+    width: 135px;
+    height: 35px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+
+    &::placeholder {
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+  &__operators {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  &__operator {
+    background-color: $colorTextPrimary;
+    border-radius: 50%;
+    color: $colorTextSecondary;
+    width: 25px;
+    height: 25px;
+    box-shadow: shadowForm;
+    transition: box-shadow 0.4s ease, ease 0.2s transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+    &:hover {
+      box-shadow: 1.5px 2.5px 3px 1.5px rgba(126, 126, 126, 1);
+    }
+    &:focus{
+
+      transform: scale(1.1.5);
+      box-shadow: 0px 0px 5px 1.5px rgb(44, 0, 126);
+      
+    }
+
+    .operator__span {
+      font-size: 12px;
+      text-align: center;
+      line-height: 1;
+    }
+  }
 }
-.ladel-for-entering-numbers {
-  width: 135;
-  height: 35;
-  top: 922px;
-  left: 405px;
-  border-radius: 20px;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  gap: 10px;
-  color: rgba(215, 215, 215, 1);
-  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
-}
-.input-for-entering-numbers {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 100%;
-  letter-spacing: 0%;
+
+.divider {
+  max-width: 536px;
+  width: 100%;
+  margin: 0 auto;
 }
