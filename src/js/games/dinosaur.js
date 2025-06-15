@@ -1,7 +1,7 @@
 export const DinosaurInit = () => {
-  class GameDinosaur {
-    constructor(dinosaur, gameArea) {
-      this.dinosaur = dinosaur;
+  class GameCat {
+    constructor(cat, gameArea) {
+      this.cat = cat;
       this.gameArea = gameArea;
       this.gameOver = false;
       this.isJumping = false;
@@ -26,11 +26,11 @@ export const DinosaurInit = () => {
 
     jump() {
       this.isJumping = true;
-      this.dinosaur.classList.add('jump');
+      this.cat.classList.add('jump');
 
       setTimeout(() => {
         this.isJumping = false;
-        this.dinosaur.classList.remove('jump');
+        this.cat.classList.remove('jump');
       }, 500);
     }
 
@@ -39,7 +39,7 @@ export const DinosaurInit = () => {
         if (this.gameOver === true) return;
         const obstacle = this.gameArea.querySelector('.rocket');
         const obstacleRect = obstacle.getBoundingClientRect();
-        const catRect = this.dinosaur.getBoundingClientRect();
+        const catRect = this.cat.getBoundingClientRect();
         if (
           catRect.right > obstacleRect.left &&
           catRect.left < obstacleRect.right &&
@@ -82,22 +82,22 @@ export const DinosaurInit = () => {
 
     createModal(message, buttonText, buttonCallback) {
       const modalHtml = `
-      <div class="dinosaur__modal">
-        <p class="dinosaur__message">${message}</p>
-        <button class="dinosaur__start button">${buttonText}</button>
+      <div class="cat__modal">
+        <p class="cat__message">${message}</p>
+        <button class="cat__start button">${buttonText}</button>
       </div>
     `;
       this.gameArea.insertAdjacentHTML('beforeend', modalHtml);
 
-      const modal = this.gameArea.querySelector('.dinosaur__modal');
+      const modal = this.gameArea.querySelector('.cat__modal');
       modal.classList.add('show');
 
-      const retryButton = this.gameArea.querySelector('.dinosaur__start');
+      const retryButton = this.gameArea.querySelector('.cat__start');
       retryButton.addEventListener('click', buttonCallback);
     }
     gameModalStart() {
       this.createModal('Зіграємо?', 'Почати гру!', () => {
-        const modal = this.gameArea.querySelector('.dinosaur__modal');
+        const modal = this.gameArea.querySelector('.cat__modal');
         modal.classList.remove('show');
         setTimeout(() => {
           modal.remove();
@@ -112,23 +112,26 @@ export const DinosaurInit = () => {
     }
 
     restartGame() {
-      this.gameArea.querySelector('.dinosaur__modal').remove();
+      this.gameArea.querySelector('.cat__modal').remove();
       this.gameArea.querySelector('.rocket').remove();
       this.gameOver = false;
       this.renderObstacles();
       this.checkCollision();
     }
   }
-  const gameContainer = document.querySelector('.dinosaur-game');
-  const gameHtml = `<div class="game__container">
-                        <h2 class="game__title">Google динозавр</h2>
+  const gameCatInit = () => {
+    const gameContainer = document.querySelector('.cat-game');
+    const gameHtml = `<div class="game__container"
+                        <h2 class="game__title">Навзва гри</h2>
                         <div class="game__area">
-                            <div class="dinosaur"></div>
+                            <div class="cat"></div>
                         </div>
                     </div>`;
-  gameContainer.innerHTML = gameHtml;
+    gameContainer.innerHTML = gameHtml;
 
-  const dinosaur = gameContainer.querySelector('.dinosaur');
-  const gameArea = document.querySelector('.game__area');
-  new GameDinosaur(dinosaur, gameArea);
+    const cat = gameContainer.querySelector('.cat');
+    const gameArea = document.querySelector('.game__area');
+    new GameCat(cat, gameArea);
+  };
+  gameCatInit();
 };

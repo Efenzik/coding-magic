@@ -4,27 +4,30 @@
 }
 .game__area {
   position: relative;
-  width: 100%;
+  width: 720px;
+  height: 220px;
   overflow: hidden;
   aspect-ratio: 4/1;
   border-radius: 10px;
-  background-color: rgba(137, 43, 226, 0.406);
+  background-image: url(../images/dinosauarea.png);
 }
 
-.dinosaur {
+.cat {
   position: absolute;
   bottom: 10px;
   left: 50px;
   width: 60px;
-  //   background-image: url(./img/cat.webp);
+  background-image: url(../images/dinosaur.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 60px;
-  background-color: brown;
 }
 
 .rocket {
-  background-color: rgb(117, 117, 117);
+  // background-color: rgb(117, 117, 117);
+  background-image: url(../images/cactus.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 30px;
   height: 60px;
   position: absolute;
@@ -33,7 +36,7 @@
   animation: moveObstacle 2s linear infinite;
 }
 
-.dinosaur__modal {
+.cat__modal {
   position: absolute;
   left: 0;
   right: 0;
@@ -49,10 +52,10 @@
   transition: opacity 250ms ease-in-out;
 }
 
-.dinosaur__message {
+.cat__message {
   font-size: 18px;
 }
-.dinosaur__start {
+.cat__start {
   border: 1px solid var(--color-text-input);
   padding: 15px 20px;
   border-radius: 10px;
@@ -62,7 +65,7 @@
   }
 }
 
-.dinosaur__modal.show {
+.cat__modal.show {
   opacity: 1;
   transition: opacity 250ms ease-in-out;
 }

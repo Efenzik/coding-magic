@@ -38,7 +38,7 @@ export default [
     id: 6,
     name: 'Google динозаврик',
     category: 'game',
-    class: 'dinosaur',
+    class: 'cat-game',
     init: DinosaurInit,
   },
   {
