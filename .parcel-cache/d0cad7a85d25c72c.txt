@@ -17,12 +17,12 @@
 89C:\Users\User1\Downloads\coding-magic-3\node_modules\v8-compile-cache\v8-compile-cache.js133940497498338669 0
 103C:\Users\User1\Downloads\coding-magic-3\node_modules\posthtml-include\node_modules\posthtml-parser\dist133940497534242444 1
 53C:\Users\User1\Downloads\coding-magic-3\.editorconfig133940419683850238 0
-74C:\Users\User1\Downloads\coding-magic-3\src\sass\components\_dinosaur.scss133944381886643404 0
+74C:\Users\User1\Downloads\coding-magic-3\src\sass\components\_dinosaur.scss133945532024429260 0
 88C:\Users\User1\Downloads\coding-magic-3\node_modules\svgo\lib\svgo\css-select-adapter.js133940497552311512 0
 84C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\regions\FM.js133940497616810178 0
 84C:\Users\User1\Downloads\coding-magic-3\node_modules\css-select\lib\general.d.ts.map133940497547031413 0
 84C:\Users\User1\Downloads\coding-magic-3\node_modules\svgo\plugins\removeEmptyText.js133940497567428155 0
-44C:\Users\User1\Downloads\coding-magic-3\dist133944381888682419 1
+44C:\Users\User1\Downloads\coding-magic-3\dist133945532030369593 1
 77C:\Users\User1\Downloads\coding-magic-3\node_modules\terser\lib\propmangle.js133940497567428155 0
 51C:\Users\User1\Downloads\coding-magic-3\.posthtmlrc133940419685079550 0
 68C:\Users\User1\Downloads\coding-magic-3\node_modules\reusify\LICENSE133940497513338988 0
@@ -83,7 +83,7 @@
 84C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\regions\DE.js133940497613188530 0
 81C:\Users\User1\Downloads\coding-magic-3\node_modules\sass\types\logger\index.d.ts133940497581919177 0
 83C:\Users\User1\Downloads\coding-magic-3\node_modules\nth-check\lib\compile.d.ts.map133940497537840378 0
-66C:\Users\User1\Downloads\coding-magic-3\dist\index.611b07d0.js.map133944380046441780 0
+66C:\Users\User1\Downloads\coding-magic-3\dist\index.611b07d0.js.map133945532029989844 0
 83C:\Users\User1\Downloads\coding-magic-3\node_modules\yaml\dist\Document-9b4560a1.js133940497516899861 0
 92C:\Users\User1\Downloads\coding-magic-3\node_modules\@nodelib\fs.walk\out\providers\async.js133940497505645713 0
 80C:\Users\User1\Downloads\coding-magic-3\node_modules\lmdb-win32-x64\package.json133940497497649060 0
@@ -120,13 +120,13 @@
 87C:\Users\User1\Downloads\coding-magic-3\node_modules\css-tree\lib\common\TokenStream.js133940497590975833 0
 55C:\Users\User1\Downloads\coding-magic-3\src\sass\layout133940419685469321 1
 102C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\features\css-read-only-write.js133940497611359568 0
-43C:\Users\User1\Downloads\coding-magic-3\src133944378912003756 1
+43C:\Users\User1\Downloads\coding-magic-3\src133945529897592968 1
 69C:\Users\User1\Downloads\coding-magic-3\node_modules\posthtml\license133940497495020557 0
 61C:\Users\User1\Downloads\coding-magic-3\src\sass\_common.scss133940419685339391 0
 77C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\packager-raw\src133940497511528447 1
 153C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\package.json133940497589485845 0
 70C:\Users\User1\Downloads\coding-magic-3\node_modules\dotenv-expand\lib133940497522608672 1
-50C:\Users\User1\Downloads\coding-magic-3\src\images133944379586278161 1
+50C:\Users\User1\Downloads\coding-magic-3\src\images133945529897592968 1
 82C:\Users\User1\Downloads\coding-magic-3\node_modules\fast-glob\out\readers\sync.js133940497553652019 0
 79C:\Users\User1\Downloads\coding-magic-3\node_modules\node-gyp-build\optional.js133940497516639518 0
 90C:\Users\User1\Downloads\coding-magic-3\node_modules\svgo\plugins\removeEmptyContainers.js133940497566898455 0
@@ -229,6 +229,10 @@
 74C:\Users\User1\Downloads\coding-magic-3\node_modules\sass\types\index.d.ts133940497581649330 0
 83C:\Users\User1\Downloads\coding-magic-3\node_modules\parcel-reporter-clean-dist\src133940497544802354 1
 72C:\Users\User1\Downloads\coding-magic-3\src\sass\components\_header.scss133940419685419354 0
+80C:\Users\User1\Downloads\coding-magic-3\node_modules\domutils\lib\stringify.d.ts133940497552101627 0
+92C:\Users\User1\Downloads\coding-magic-3\node_modules\terser\node_modules\commander\Readme.md133940497521398954 0
+68C:\Users\User1\Downloads\coding-magic-3\node_modules\xxhash-wasm\esm133940497526288824 1
+56C:\Users\User1\Downloads\coding-magic-3\src\images\ñ.png133945529471957824 0
 82C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\core\src\constants.js133940497568929787 0
 110C:\Users\User1\Downloads\coding-magic-3\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest3.c133940497578406069 0
 68C:\Users\User1\Downloads\coding-magic-3\src\images\dinosaurarea.webp133944345777826553 0
@@ -261,11 +265,6 @@
 74C:\Users\User1\Downloads\coding-magic-3\node_modules\fastq\test\example.ts133940497539129647 0
 81C:\Users\User1\Downloads\coding-magic-3\node_modules\svgo\plugins\cleanupAttrs.js133940497538130220 0
 89C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\optimizer-image\package.json133940497517649752 0
-81C:\Users\User1\Downloads\coding-magic-3\node_modules\svgo\plugins\inlineStyles.js133940497554081785 0
-79C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\utils\src\index.js133940497563939674 0
-92C:\Users\User1\Downloads\coding-magic-3\node_modules\csso\lib\replace\property\background.js133940497542963397 0
-84C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\regions\VN.js133940497636156359 0
-60C:\Users\User1\Downloads\coding-magic-3\src\images\cactu.png133944365867916976 0
 61C:\Users\User1\Downloads\coding-magic-3\node_modules\posthtml133940497521479314 1
 98C:\Users\User1\Downloads\coding-magic-3\node_modules\abortcontroller-polyfill\dist\umd-polyfill.js133940497540159053 0
 71C:\Users\User1\Downloads\coding-magic-3\node_modules\nullthrows\LICENSE133940497499198177 0
@@ -274,7 +273,7 @@
 74C:\Users\User1\Downloads\coding-magic-3\node_modules\parent-module\license133940497509697502 0
 95C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\core\src\requests\DevDepRequest.js133940497572737894 0
 81C:\Users\User1\Downloads\coding-magic-3\node_modules\domhandler\lib\node.d.ts.map133940497527478804 0
-64C:\Users\User1\Downloads\coding-magic-3\src\js\games\dinosaur.js133944334325582058 0
+64C:\Users\User1\Downloads\coding-magic-3\src\js\games\dinosaur.js133945514427745629 0
 58C:\Users\User1\Downloads\coding-magic-3\node_modules\tslib133940497539179622 1
 112C:\Users\User1\Downloads\coding-magic-3\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.c133940497564269482 0
 92C:\Users\User1\Downloads\coding-magic-3\node_modules\@swc\helpers\lib\_is_native_function.js133940497566358778 0
@@ -285,7 +284,7 @@
 73C:\Users\User1\Downloads\coding-magic-3\node_modules\parse-json\readme.md133940497513428938 0
 75C:\Users\User1\Downloads\coding-magic-3\node_modules\picomatch\lib\utils.js133940497534152492 0
 98C:\Users\User1\Downloads\coding-magic-3\node_modules\@swc\helpers\lib\_class_private_field_init.js133940497549641551 0
-60C:\Users\User1\Downloads\coding-magic-3\src\js\data\games.js133944333641107275 0
+60C:\Users\User1\Downloads\coding-magic-3\src\js\data\games.js133945502670495358 0
 66C:\Users\User1\Downloads\coding-magic-3\src\images\dinosauarea.png133944351096743323 0
 66C:\Users\User1\Downloads\coding-magic-3\src\images\header-logo.svg133940419685179483 0
 84C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\regions\CU.js133940497612918676 0
@@ -917,9 +916,6 @@
 74C:\Users\User1\Downloads\coding-magic-3\node_modules\htmlparser2\README.md133940497541444263 0
 68C:\Users\User1\Downloads\coding-magic-3\node_modules\xxhash-wasm\cjs133940497520849265 1
 83C:\Users\User1\Downloads\coding-magic-3\node_modules\xxhash-wasm\umd\xxhash-wasm.js133940497513269027 0
-80C:\Users\User1\Downloads\coding-magic-3\node_modules\domutils\lib\stringify.d.ts133940497552101627 0
-92C:\Users\User1\Downloads\coding-magic-3\node_modules\terser\node_modules\commander\Readme.md133940497521398954 0
-68C:\Users\User1\Downloads\coding-magic-3\node_modules\xxhash-wasm\esm133940497526288824 1
 64C:\Users\User1\Downloads\coding-magic-3\node_modules\fclone\dist133940497534082533 1
 90C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\dist\unpacker\feature.js133940497616170536 0
 70C:\Users\User1\Downloads\coding-magic-3\node_modules\globals\readme.md133940497522098960 0
@@ -1342,6 +1338,8 @@
 81C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\workers\package.json133940497564809175 0
 77C:\Users\User1\Downloads\coding-magic-3\node_modules\modern-normalize\license133940497495070529 0
 74C:\Users\User1\Downloads\coding-magic-3\node_modules\resolve-from\index.js133940497498488587 0
+81C:\Users\User1\Downloads\coding-magic-3\node_modules\svgo\plugins\inlineStyles.js133940497554081785 0
+79C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\utils\src\index.js133940497563939674 0
 116C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\bar.js133940497535091967 0
 83C:\Users\User1\Downloads\coding-magic-3\node_modules\svgo\plugins\preset-default.js133940497561310137 0
 73C:\Users\User1\Downloads\coding-magic-3\node_modules\nullthrows\README.md133940497522568752 0
@@ -1701,7 +1699,7 @@
 76C:\Users\User1\Downloads\coding-magic-3\node_modules\normalize-path\index.js133940497499248146 0
 90C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\optimizer-terser\package.json133940497514859898 0
 98C:\Users\User1\Downloads\coding-magic-3\node_modules\fast-glob\out\providers\matchers\partial.d.ts133940497563069797 0
-64C:\Users\User1\Downloads\coding-magic-3\dist\cactus.00db284f.png133944380046501753 0
+64C:\Users\User1\Downloads\coding-magic-3\dist\cactus.00db284f.png133945532030169705 0
 114C:\Users\User1\Downloads\coding-magic-3\node_modules\parcel-reporter-clean-dist\test\unit\getFilesToRemove.spec.js133940497534582250 0
 91C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\features\progress.js133940497630939339 0
 77C:\Users\User1\Downloads\coding-magic-3\node_modules\posthtml-expressions\lib133940497534262429 1
@@ -2283,7 +2281,7 @@
 110C:\Users\User1\Downloads\coding-magic-3\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest4.c133940497581149605 0
 75C:\Users\User1\Downloads\coding-magic-3\node_modules\js-tokens\CHANGELOG.md133940497499368091 0
 84C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\regions\CO.js133940497588636338 0
-67C:\Users\User1\Downloads\coding-magic-3\dist\index.b07a87f3.css.map133944381888612480 0
+67C:\Users\User1\Downloads\coding-magic-3\dist\index.b07a87f3.css.map133945532029100348 0
 88C:\Users\User1\Downloads\coding-magic-3\node_modules\fast-glob\out\providers\provider.js133940497547981643 0
 112C:\Users\User1\Downloads\coding-magic-3\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_drop.c133940497560240470 0
 112C:\Users\User1\Downloads\coding-magic-3\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.1133940497549541604 0
@@ -2812,6 +2810,8 @@
 78C:\Users\User1\Downloads\coding-magic-3\node_modules\csso\lib\replace\index.js133940497557732233 0
 79C:\Users\User1\Downloads\coding-magic-3\node_modules\csso\lib\replace\String.js133940497564009623 0
 78C:\Users\User1\Downloads\coding-magic-3\node_modules\csso\lib\replace\Value.js133940497566918437 0
+92C:\Users\User1\Downloads\coding-magic-3\node_modules\csso\lib\replace\property\background.js133940497542963397 0
+84C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\regions\VN.js133940497636156359 0
 65C:\Users\User1\Downloads\coding-magic-3\node_modules\css-tree\lib133940497573837591 1
 88C:\Users\User1\Downloads\coding-magic-3\node_modules\csso\lib\replace\property\border.js133940497543762945 0
 89C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\features\tls1-3.js133940497634737172 0
@@ -3388,7 +3388,7 @@
 107C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\features\mediacapture-fromelement.js133940497624785878 0
 99C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\features\css-nth-child-of.js133940497604762051 0
 94C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\features\css-opacity.js133940497605071867 0
-62C:\Users\User1\Downloads\coding-magic-3\dist\index.611b07d0.js133944380046371820 0
+62C:\Users\User1\Downloads\coding-magic-3\dist\index.611b07d0.js133945532029699977 0
 102C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\features\css-optional-pseudo.js133940497605221786 0
 76C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\fs\src\types.js133940497540109093 0
 97C:\Users\User1\Downloads\coding-magic-3\node_modules\caniuse-lite\data\features\css-page-break.js133940497608160653 0
@@ -3698,7 +3698,7 @@
 73C:\Users\User1\Downloads\coding-magic-3\node_modules\buffer-from\index.js133940497499907771 0
 72C:\Users\User1\Downloads\coding-magic-3\node_modules\buffer-from\LICENSE133940497495180465 0
 77C:\Users\User1\Downloads\coding-magic-3\node_modules\buffer-from\package.json133940497510978155 0
-69C:\Users\User1\Downloads\coding-magic-3\dist\footer-logo.a8632c35.svg133944380046091998 0
+69C:\Users\User1\Downloads\coding-magic-3\dist\footer-logo.a8632c35.svg133945532030339618 0
 74C:\Users\User1\Downloads\coding-magic-3\node_modules\buffer-from\readme.md133940497513608835 0
 72C:\Users\User1\Downloads\coding-magic-3\node_modules\browserslist\cli.js133940497511008140 0
 74C:\Users\User1\Downloads\coding-magic-3\node_modules\browserslist\error.js133940497513628816 0
@@ -4306,7 +4306,7 @@
 87C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\graph\lib\AdjacencyList.js133940497515359615 0
 79C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\graph\lib\Graph.js133940497539559414 0
 79C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\graph\lib\index.js133940497543053349 0
-63C:\Users\User1\Downloads\coding-magic-3\dist\index.b07a87f3.css133944381888602474 0
+63C:\Users\User1\Downloads\coding-magic-3\dist\index.b07a87f3.css133945532029100348 0
 98C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\fs-search\fs-search.darwin-arm64.node133940497535611654 0
 96C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\fs-search\fs-search.darwin-x64.node133940497543523077 0
 101C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\fs-search\fs-search.linux-arm64-gnu.node133940497552851510 0
@@ -4458,7 +4458,7 @@
 96C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\core\src\requests\PackageRequest.js133940497585747455 0
 100C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\core\src\requests\ParcelBuildRequest.js133940497588076657 0
 101C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\core\src\requests\ParcelConfigRequest.js133940497589026120 0
-66C:\Users\User1\Downloads\coding-magic-3\dist\dinosaur.aa727201.png133944380046361828 0
+66C:\Users\User1\Downloads\coding-magic-3\dist\dinosaur.aa727201.png133945532029699977 0
 95C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\core\src\requests\TargetRequest.js133940497600104136 0
 100C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\core\src\requests\WriteBundleRequest.js133940497601823424 0
 101C:\Users\User1\Downloads\coding-magic-3\node_modules\@parcel\core\src\requests\WriteBundlesRequest.js133940497602003330 0
@@ -4717,8 +4717,8 @@
 66C:\Users\User1\Downloads\coding-magic-3\node_modules\.bin\svgo.ps1133940497638415065 0
 64C:\Users\User1\Downloads\coding-magic-3\node_modules\.bin\terser133940497638365120 0
 68C:\Users\User1\Downloads\coding-magic-3\node_modules\.bin\terser.cmd133940497638355103 0
-69C:\Users\User1\Downloads\coding-magic-3\dist\dinosauarea.5208625d.png133944380777790077 0
-69C:\Users\User1\Downloads\coding-magic-3\dist\header-logo.9a3fb67d.svg133944380046091998 0
-55C:\Users\User1\Downloads\coding-magic-3\dist\index.html133944380046371820 0
+69C:\Users\User1\Downloads\coding-magic-3\dist\dinosauarea.5208625d.png133945532029709975 0
+69C:\Users\User1\Downloads\coding-magic-3\dist\header-logo.9a3fb67d.svg133945532030329611 0
+55C:\Users\User1\Downloads\coding-magic-3\dist\index.html133945532029020366 0
 57C:\Users\User1\Downloads\coding-magic-3\.github\workflows133940419683860227 1
 68C:\Users\User1\Downloads\coding-magic-3\.github\workflows\deploy.yml133940419683860227 0
