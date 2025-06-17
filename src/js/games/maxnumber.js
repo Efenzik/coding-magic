@@ -1,5 +1,5 @@
 export const maxNumberGameInit = () => {
-  const gameContainer = document.querySelector('.biggest-number');
+  const gameContainer = document.querySelector('.largest-number');
 
   const gameHtml = `
     <div class="max-number-game__container">
