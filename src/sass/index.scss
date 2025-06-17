@@ -1,3 +1,16 @@
+
+@import './utils/variables';
+@import './base/reset';
+@import './base/base';
+@import './layout/grids';
+@import './components/rps'; 
+@import './components/calculator';
+
 @import './common';
-@import './calculator';
-@import './components/interactive-check'
+@import './components/container';
+// @import './calculator';
+@import './components/interactive-check';
+@import './components/header';
+@import './components/football';
+@import './components/footer';
+

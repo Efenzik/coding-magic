@@ -1,6 +1,6 @@
 import { calculatorInit } from '../games/calculator';
 import { leapYearInit } from '../games/leap-year';
-import { quessNumber } from '../games/quess-number'
+import { footballInit } from '../games/football';
 export default [
   {
     id: 1,
@@ -40,12 +40,14 @@ export default [
     name: 'Google динозаврик',
     category: 'game',
     class: 'dinosaur',
+    init: footballInit,
   },
   {
     id: 7,
     name: 'Футбол',
     category: 'game',
     class: 'football',
+    init: footballInit,
   },
   {
     id: 8,
