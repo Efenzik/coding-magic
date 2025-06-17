@@ -78,7 +78,7 @@
       }
 
       &__button {
-        background-color: $colorTextPrimary;
+        background-color: var(--colorTextPrimary);
         color: $colorTextSecondary;
         border: none;
         border-radius: 20px;
