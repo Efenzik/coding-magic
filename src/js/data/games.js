@@ -5,6 +5,7 @@ import { rpsInit } from '../games/rps';
 import { maxNumberGameInit } from '../games/maxnumber';
 import { DinosaurInit } from '../games/dinosaur';
 import { footballInit } from '../games/football';
+import { quessNumber } from '../games/quess-number';
 
 export default [
   {

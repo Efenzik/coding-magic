@@ -22,7 +22,7 @@ export const quessNumber = () => {
   const input = form.querySelector(".quess__number__input");
   const result = form.querySelector(".interactive__result");
 
-  const secretNumber = Math.floor(Math.random() * 100) + 1; 
+  const secretNumber = Math.floor(Math.random() * 10) + 1; 
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
