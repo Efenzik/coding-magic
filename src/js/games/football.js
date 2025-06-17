@@ -1,9 +1,11 @@
+import balls from '../../images/balls.png';
+
 export const footballInit = () => {
   const gameContainer = document.querySelector('.football');
   const gameHtml = `<h2 class="game__title">Футбол</h2>
   <div class=" football__field" id="field">
   <div class="football__ball" id="ball">
-  <img class="football__ball--img" alt="ball" src="./images/icons/football.svg"></div>
+  <img class="football__ball--img" alt="ball" src="${balls}"></div>
 
   </div>`;
 

@@ -1,0 +1,113 @@
+.game__container {
+  max-width: 720px;
+  margin-inline: auto;
+}
+.game__area {
+  position: relative;
+  width: 720px;
+  height: 220px;
+  overflow: hidden;
+  aspect-ratio: 4/1;
+  border-radius: 10px;
+  background-image: url(../images/dinosauarea.png);
+}
+
+.game__title {
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+.dinosaur {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  width: 60px;
+  background-image: url(../images/dinosaur.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+}
+
+.cactus {
+  background-image: url(../images/cactus.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: moveObstacle 2s linear infinite;
+}
+
+.dinosaur__modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-shadow);
+  gap: 15px;
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+
+.dinosaur__message {
+  font-size: 18px;
+}
+
+.dinosaur__start {
+  border: 1px solid var(--color-text-input);
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: transform 250ms ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.dinosaur__modal.show {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+@keyframes moveObstacle {
+  from {
+    right: -20px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+.jump {
+  animation: jump 0.5s ease-out;
+}
+
+@keyframes jump {
+  0% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 0 -100px;
+  }
+
+  100% {
+    translate: 0 0;
+  }
+}
+.dinosaur-game::after {
+  content: '';
+  position: relative;
+  width: 536px;
+  height: 2px;
+  background-color: #00000091;
+  top: 36px;
+}

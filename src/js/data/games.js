@@ -1,6 +1,11 @@
 import { calculatorInit } from '../games/calculator';
 import { leapYearInit } from '../games/leap-year';
 import { footballInit } from '../games/football';
+import { rpsInit } from '../games/rps';
+import { maxNumberGameInit } from '../games/maxnumber';
+import { DinosaurInit } from '../games/dinosaur';
+import { footballInit } from '../games/football';
+
 export default [
   {
     id: 1,
@@ -21,6 +26,7 @@ export default [
     name: 'Камінь-Ножиці-Папір',
     category: 'game',
     class: 'rock-scissors-paper',
+    init: rpsInit,
   },
   {
     id: 4,
@@ -39,8 +45,8 @@ export default [
     id: 6,
     name: 'Google динозаврик',
     category: 'game',
-    class: 'dinosaur',
-    init: footballInit,
+    class: 'dinosaur-game',
+    init: DinosaurInit,
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ export default [
     name: 'Найбільше число',
     category: 'numerical',
     class: 'largest-number',
+    init: maxNumberGameInit,
   },
   {
     id: 9,
