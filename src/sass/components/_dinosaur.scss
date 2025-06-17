@@ -5,18 +5,19 @@
 .game__area {
   position: relative;
   width: 720px;
-  height: 220px;
+  // height: 220px;
   overflow: hidden;
-  aspect-ratio: 4/1;
+  aspect-ratio: 9/2;
   border-radius: 10px;
   background-image: url(../images/dinosauarea.png);
+  background-size: contain;
 }
 
 .game__title {
-  font-family: Montserrat Alternates;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 36px;
+  text-align: center;
 }
 
 .dinosaur {

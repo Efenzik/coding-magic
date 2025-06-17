@@ -121,7 +121,7 @@ export const DinosaurInit = () => {
   }
   const gameCatInit = () => {
     const gameContainer = document.querySelector('.dinosaur-game');
-    const gameHtml = `<div class="game__container"
+    const gameHtml = `<div class="game__container">
                         <h2 class="game__title">Google динозавр</h2>
                         <div class="game__area">
                             <div class="dinosaur"></div>
