@@ -1,16 +1,10 @@
-
-@import './utils/variables';
+@import './common';
 @import './base/reset';
 @import './base/base';
-@import './layout/grids';
-@import './components/rps'; 
-@import './components/calculator';
-
-@import './common';
+@import './utils/variables';
 @import './components/container';
 // @import './calculator';
 @import './components/interactive-check';
 @import './components/header';
 @import './components/football';
 @import './components/footer';
-
