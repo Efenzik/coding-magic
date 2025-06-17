@@ -1,6 +1,9 @@
 import { calculatorInit } from '../games/calculator';
 import { leapYearInit } from '../games/leap-year';
-import { DinosaurInit } from '../games/dinosaur';
+import { footballInit } from '../games/football';
+import { rpsInit } from '../games/rps';
+import { maxNumberGameInit } from '../games/maxnumber';
+
 export default [
   {
     id: 1,
@@ -20,6 +23,7 @@ export default [
     name: 'Камінь-Ножиці-Папір',
     category: 'game',
     class: 'rock-scissors-paper',
+    init: rpsInit,
   },
   {
     id: 4,
@@ -46,12 +50,14 @@ export default [
     name: 'Футбол',
     category: 'game',
     class: 'football',
+    init: footballInit,
   },
   {
     id: 8,
     name: 'Найбільше число',
     category: 'numerical',
     class: 'largest-number',
+    init: maxNumberGameInit,
   },
   {
     id: 9,
