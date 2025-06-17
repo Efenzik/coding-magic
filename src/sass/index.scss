@@ -1,11 +1,10 @@
-
 @import './utils/variables';
 @import './base/reset';
 @import './base/base';
 @import './layout/grids';
-@import './components/rps'; 
+@import './components/rps';
 @import './components/calculator';
-
+@import './components/max-number';
 @import './common';
 @import './components/container';
 // @import './calculator';
@@ -13,4 +12,3 @@
 @import './components/header';
 @import './components/football';
 @import './components/footer';
-
