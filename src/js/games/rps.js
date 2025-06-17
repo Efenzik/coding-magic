@@ -1,8 +1,11 @@
-const stone = new URL('../images/rps/stone.svg', import.meta.url);
-const scissors = new URL('../images/rps/scissors.svg', import.meta.url);
-const paper = new URL('../images/rps/paper.svg', import.meta.url);
+import stone from '../../images/rps/stone.svg';
+import scissors from '../../images/rps/scissors.svg';
+import paper from '../../images/rps/paper.svg';
 
-export const rps = `
+export const rpsInit = () => {
+  const gameContainer = document.querySelector('.rock-scissors-paper');
+
+  const gameHtml = `
 <div class="rps-game container">
   <h2 class="rps-game__title">Камінь – ножиці – папір</h2>
 
@@ -45,3 +48,5 @@ export const rps = `
   <hr class="divider" />
 </div>
 `;
+  gameContainer.innerHTML = gameHtml;
+};

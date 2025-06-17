@@ -1,6 +1,7 @@
 import { calculatorInit } from '../games/calculator';
 import { leapYearInit } from '../games/leap-year';
 import { footballInit } from '../games/football';
+import { rpsInit } from '../games/rps';
 export default [
   {
     id: 1,
@@ -20,6 +21,7 @@ export default [
     name: 'Камінь-Ножиці-Папір',
     category: 'game',
     class: 'rock-scissors-paper',
+    init: rpsInit,
   },
   {
     id: 4,
