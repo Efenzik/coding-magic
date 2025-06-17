@@ -3,6 +3,8 @@ import { leapYearInit } from '../games/leap-year';
 import { footballInit } from '../games/football';
 import { rpsInit } from '../games/rps';
 import { maxNumberGameInit } from '../games/maxnumber';
+import { DinosaurInit } from '../games/dinosaur';
+import { footballInit } from '../games/football';
 
 export default [
   {
