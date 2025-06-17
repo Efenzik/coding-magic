@@ -51,7 +51,7 @@
   }
 
   &__operator {
-    background-color: $colorTextPrimary;
+    background-color: var(--colorTextPrimary);
     border-radius: 50%;
     color: $colorTextSecondary;
     width: 25px;

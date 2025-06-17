@@ -1,5 +1,4 @@
 // Кольори
-$colorTextPrimary: #000000;
 $colorTextSecondary: #ffffff;
 $colorTextThird: #039900;
 $colorTextForm: #7e7e7e;
@@ -15,4 +14,6 @@ $shadowForm: 2.2px 2.3px 0.5px 1px rgb(189, 189, 189);
 :root {
     --font-primary: 'Montserrat Alternates', sans-serif;
     --font-secondary: 'Inter', sans-serif;
+    --colorTextPrimary: #000000;
+
 }

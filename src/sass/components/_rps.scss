@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   background-color: $colorTextSecondary;
-  color: $colorTextPrimary;
+  color: var(--colorTextPrimary);
 
   &__title {
     margin: 36px 0;
@@ -32,7 +32,7 @@
   }
 
   .rps-option {
-    background-color: $colorTextPrimary;
+    background-color: var(--colorTextPrimary);
     width: 60px;
     height: 60px;
     border-radius: 20px;
@@ -78,7 +78,7 @@
     margin: 36px 0;
     font-weight: 500;
     font-size: 12px;
-    background-color: $colorTextPrimary;
+    background-color: var(--colorTextPrimary);
     color: $colorTextSecondary;
   }
 
