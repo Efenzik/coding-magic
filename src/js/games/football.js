@@ -4,7 +4,7 @@ export const footballInit = () => {
   <div class=" football__field" id="field">
   <div class="football__ball" id="ball">
   <img class="football__ball--img" alt="ball" src="./images/icons/football.svg"></div>
-
+  <div class="underline"></div>
   </div>`;
 
   gameContainer.innerHTML = gameHtml;
