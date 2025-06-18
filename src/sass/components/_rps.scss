@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $colorTextSecondary;
+  background-color: var(--colorTextSecondary);
   color: var(--colorTextPrimary);
 
   &__title {
@@ -13,7 +13,7 @@
   }
 
   .rps-top {
-    position: relative; 
+    position: relative;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -51,13 +51,12 @@
       outline: 4px dashed rgb(255, 153, 0);
       outline-offset: 7px;
     }
-
   }
 
   .rps-score {
     position: absolute;
     left: 50%;
-    transform: translateX(208px); 
+    transform: translateX(208px);
     transform: translate(208px, -50%);
     font-size: 12px;
     font-weight: 500;
@@ -79,12 +78,12 @@
     font-weight: 500;
     font-size: 12px;
     background-color: var(--colorTextPrimary);
-    color: $colorTextSecondary;
+    color: var(--colorTextSecondary);
   }
 
   .divider {
     max-width: 536px;
-    background-color: $colorTextForm;
+    background-color: var(--colorTextForm);
     width: 100%;
   }
 }

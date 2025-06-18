@@ -1,5 +1,5 @@
 .footer {
-  background-color: $colorTextSecondary;
+  background-color: var(--colorTextSecondary);
   padding: 40px 0;
 
   .footer__container {
@@ -35,13 +35,13 @@
 
     &__link {
       text-decoration: none;
-      color: #000000;
+      color: var(--colorTextPrimary);
       font-size: 16px;
       font-weight: 400;
       transition: color 0.3s ease;
 
       &:hover {
-        color: #0099ff;
+        color: var(--colorTextHover);
       }
     }
   }
@@ -103,7 +103,7 @@
   .subscribe-popup {
     display: none;
     padding: 20px;
-    background: #fff;
+    background: var(--colorTextSecondary);
     border: 1px solid #ccc;
     border-radius: 10px;
 
@@ -118,7 +118,7 @@
 
     &__message {
       font-size: 14px;
-      color: #000;
+      color: var(--colorTextPrimary);
     }
   }
 }
