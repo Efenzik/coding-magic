@@ -1,4 +1,4 @@
-export const welcomeModal = () => {
+
   const container = document.querySelector(".modal-container");
 
   const modalHTML = `
@@ -40,4 +40,3 @@ export const welcomeModal = () => {
       alert("Будь ласка, введіть ім’я");
     }
   });
-};
