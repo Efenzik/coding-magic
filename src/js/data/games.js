@@ -6,6 +6,7 @@ import { maxNumberGameInit } from '../games/maxnumber';
 import { DinosaurInit } from '../games/dinosaur';
 import { footballInit } from '../games/football';
 import { quessNumber } from '../games/quess-number';
+import { teamInit } from '../games/team';
 
 export default [
   {
@@ -68,6 +69,7 @@ export default [
     name: 'Наша команда',
     category: 'acquaintance',
     class: 'team',
+    init: teamInit,
   },
   {
     id: 10,
