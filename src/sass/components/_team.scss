@@ -1,0 +1,79 @@
+.team__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  position: relative;
+}
+.teammate__photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.teammate__img {
+  object-fit: contain;
+  height: 100%;
+}
+.slider {
+  overflow: hidden;
+}
+.slider__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 100px;
+  background-color: transparent;
+  background-size: cover;
+}
+.left__button {
+  left: -93px;
+  background-image: url(../images/left-swapper.jpg);
+}
+.right__button {
+  right: -93px;
+  background-image: url(../images/rigth-swapper.jpg);
+}
+.slider__list {
+  display: flex;
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+.slider__item {
+  min-width: 100%;
+}
+.teammate {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  gap: 20px;
+}
+.slider__chooser {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.chooser__dot {
+  width: 18px;
+  height: 3px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transition: 0.5s;
+  border-radius: 3px;
+}
+
+.chooser__dot.active {
+  background-color: #797979;
+  width: 30px;
+}

@@ -1,5 +1,13 @@
 import { calculatorInit } from '../games/calculator';
 import { leapYearInit } from '../games/leap-year';
+import { footballInit } from '../games/football';
+import { rpsInit } from '../games/rps';
+import { maxNumberGameInit } from '../games/maxnumber';
+import { DinosaurInit } from '../games/dinosaur';
+import { footballInit } from '../games/football';
+import { quessNumber } from '../games/quess-number';
+import { teamInit } from '../games/team';
+
 export default [
   {
     id: 1,
@@ -13,12 +21,14 @@ export default [
     name: 'Вгадай число',
     category: 'numerical',
     class: 'quess-number',
+    init: quessNumber,
   },
   {
     id: 3,
     name: 'Камінь-Ножиці-Папір',
     category: 'game',
     class: 'rock-scissors-paper',
+    init: rpsInit,
   },
   {
     id: 4,
@@ -37,7 +47,8 @@ export default [
     id: 6,
     name: 'Google динозаврик',
     category: 'game',
-    class: 'dinosaur',
+    class: 'dinosaur-game',
+    init: DinosaurInit,
   },
   {
     id: 7,
@@ -51,12 +62,14 @@ export default [
     name: 'Найбільше число',
     category: 'numerical',
     class: 'largest-number',
+    init: maxNumberGameInit,
   },
   {
     id: 9,
     name: 'Наша команда',
     category: 'acquaintance',
     class: 'team',
+    init: teamInit,
   },
   {
     id: 10,
