@@ -28,7 +28,7 @@ export const teamInit = () => {
       <ul class="slider__chooser">
         ${team
           .map(
-            (_, i) =>
+            i =>
               `<li class="chooser__dot ${
                 i === 0 ? 'active' : ''
               }" data-index="${i}"></li>`

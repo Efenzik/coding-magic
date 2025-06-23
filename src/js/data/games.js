@@ -7,6 +7,7 @@ import { DinosaurInit } from '../games/dinosaur';
 import { footballInit } from '../games/football';
 import { quessNumber } from '../games/quess-number';
 import { teamInit } from '../games/team';
+import { scientistInit } from '../games/scientists';
 
 export default [
   {
@@ -76,5 +77,6 @@ export default [
     name: 'Вчений',
     category: 'acquaintance',
     class: 'scienties',
+    init: scientistInit,
   },
 ];

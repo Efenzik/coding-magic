@@ -7,6 +7,7 @@
   max-width: 720px;
   margin: 0 auto;
   position: relative;
+  padding-bottom: 72px;
 }
 .teammate__photo {
   width: 150px;
@@ -15,7 +16,7 @@
   overflow: hidden;
 }
 .teammate__img {
-  object-fit: contain;
+  object-fit: cover;
   height: 100%;
 }
 .slider {

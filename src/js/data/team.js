@@ -2,8 +2,7 @@ import artemTl from '../../images/artemTl.jpg';
 import ulianaScr from '../../images/ulianaScr.jpg';
 import samirDev from '../../images/samirDev.jpg';
 import vanyaDev from '../../images/vanyaDev.jpg';
-// import kirillDev from '../../images/kirillDev.jpg';
-
+import kirillDev from '../../images/kirillDev.jpg';
 export default [
   {
     id: 1,
@@ -31,7 +30,7 @@ export default [
   },
   {
     id: 5,
-    // teammatePhoto: kirillDev,
+    teammatePhoto: kirillDev,
     name: 'Kirill',
     teammateInfo: 'Developer',
   },
