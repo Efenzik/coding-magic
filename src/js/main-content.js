@@ -1,4 +1,5 @@
 import games from './data/games.js';
+import { filterByCatecories } from './filter-games.js';
 
 const mainContainer = document.querySelector('[data-games]');
 
@@ -18,3 +19,15 @@ games.forEach(game => {
     game.init();
   }
 });
+
+//фільтрація
+const filteredByCategoriesBtn = document.querySelector('[data-filter]');
+const handleFilter = event => {
+  if (event.target.tagname === 'BUTTON') {
+    const category = event.target.dataset.category;
+    const filteredGamees = filterByCatecories(category, gamees);
+  }
+};
+s;
+
+filteredByCategoriesBtn.addEventListener('click', handleFilter);
