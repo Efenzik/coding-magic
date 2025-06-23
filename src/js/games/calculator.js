@@ -81,3 +81,37 @@ export const calculatorInit = () => {
 `;
   gameContainer.innerHTML = gameHtml;
 };
+const calc1 = document.getElementById('calc-input-1');
+const calc2 = document.getElementById('calc-input-2');
+const calcRes = document.getElementById('calc-result');
+let op = null;
+
+document.querySelectorAll('.calculator__operator').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const action = btn.dataset.op;
+
+    if (action === 'result') {
+      const a = +calc1.value;
+      const b = +calc2.value;
+      let result = '';
+
+      if (isNaN(a) || isNaN(b)) {
+        result = 'Помилка';
+      } else if (op === 'add') {
+        result = a + b;
+      } else if (op === 'subtract') {
+        result = a - b;
+      } else if (op === 'multiply') {
+        result = a * b;
+      } else if (op === 'divide') {
+        result = b !== 0 ? a / b : '∞';
+      } else {
+        result = 'Оберіть операцію';
+      }
+
+      calcRes.value = result;
+    } else {
+      op = action;
+    }
+  });
+});
