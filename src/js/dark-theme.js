@@ -4,7 +4,7 @@ const handleTheme = event => {
   if (event.target.cheked) {
     document.documentElement.dataset.theme = 'dark';
   } else {
-    document.documentElement.dataset.theme = '';
+    document.documentElement.dataset.theme = 'light';
   }
 };
 themeChanger.addEventListener('change', handleTheme);

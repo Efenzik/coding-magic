@@ -6,24 +6,31 @@ $shadowForm: 2.2px 2.3px 0.5px 1px rgb(189, 189, 189);
 :root {
   --font-primary: 'Montserrat Alternates', sans-serif;
   --font-secondary: 'Inter', sans-serif;
+
+  --colorBg: #ffffff;
   --colorTextPrimary: #000000;
   --colorTextSecondary: #ffffff;
   --colorTextThird: #039900;
+  --colorTextFourth: #990000;
+  --colorHeadFoot: #ffffff;
   --colorTextForm: #7e7e7e;
   --colorBgForm: #d7d7d7;
   --colorBgFootball: #5abb58;
   --colorBackgroundPhotoFrame: #d9d9d9;
   --colorTextHover: #0099ff;
+  --colorInput: #000000;
 }
 
 html[data-theme='dark'] {
-  --colorTextPrimary: #f8f8f2;
+  color-scheme: dark;
+  --colorBg: #302e2e;
+  --colorTextPrimary: #eacfcf;
   --colorTextSecondary: #282828;
   --colorTextThird: #27b783;
-  --colorTextForm: #7e7e7e;
-  --colorBgForm: #d7d7d7;
+  --colorTextFourth: #ff1733;
+  --colorHeadFoor: #1f1d1d;
+  --colorTextForm: #ffffff;
+  --colorBgForm: #028089;
   --colorBackgroundPhotoFrame: #6f6f6f;
-  --colorTextHover: #0099ff;
-  --color: #8acecf;
-  --collor: #028089;
+  --colorInput: #028089;
 }
