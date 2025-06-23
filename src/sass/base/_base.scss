@@ -11,8 +11,22 @@ body {
   color: var(--colorTextPrimary);
   line-height: 1.25;
 }
+main {
+  background-image: url('../images/background-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .games__title {
   text-align: center;
   font-size: 24px;
-  margin-bottom: 36px;
+  padding-bottom: 36px;
+  max-width: 1090px;
+  background-color: #fff;
+  margin-inline: auto;
+}
+.main-container {
+  max-width: 1090px;
+  background-color: #fff;
+  margin-inline: auto;
+  z-index: 2;
 }
