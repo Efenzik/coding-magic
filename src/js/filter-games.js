@@ -1,6 +1,4 @@
-export const filterByCatecories = (categories, games) => {
-  const filteredGames = games.filter(game =>
-    game.categories.includes(categories)
-  );
+export const filterByCatecories = (category, games) => {
+  const filteredGames = games.filter(game => game.category.includes(category));
   return filteredGames;
 };
