@@ -48,7 +48,7 @@ export const rpsInit = () => {
   <hr class="divider" />
 </div>
 `;
-  //   gameContainer.innerHTML = gameHtml;
+  gameContainer.innerHTML = gameHtml;
   // };
   // let playerScore = 0;
   // let computerScore = 0;
