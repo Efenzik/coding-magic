@@ -43,14 +43,14 @@
   gap: 5px;
 }
 
-.header__list-button {
-  width: 10px;
-  height: 10px;
-
-  background-size: contain;
-  border: none;
-  cursor: pointer;
-}
+// .header__list-button {
+//   width: 10px;
+//   height: 10px;
+//   background-image: url(../images/header-down.svg);
+//   background-size: contain;
+//   border: none;
+//   cursor: pointer;
+// }
 
 .header__filter {
   position: absolute;
@@ -121,4 +121,18 @@
 .header__user {
   font-size: 14px;
   color: #333;
+}
+.header__interactive {
+  margin-right: 30px;
+}
+.header__interactive:hover,
+.header__interactive::after {
+  cursor: pointer;
+}
+.header__interactive::after {
+  content: '⏷';
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  transform: translateX(8);
 }
