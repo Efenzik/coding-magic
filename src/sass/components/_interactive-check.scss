@@ -22,6 +22,9 @@
   border-bottom: 2px solid #c0bfbf;
   background-color: var(--colorBgForm);
   font-family: Monteserrat Alternates;
+  &::placeholder {
+    color: var(--colorTextForm);
+  }
 }
 
 .interactive__button {
