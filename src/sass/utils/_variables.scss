@@ -19,6 +19,8 @@ $shadowForm: 2.2px 2.3px 0.5px 1px rgb(189, 189, 189);
   --colorBackgroundPhotoFrame: #d9d9d9;
   --colorTextHover: #0099ff;
   --colorInput: #000000;
+  --colorBtn: #000000;
+  --colorTxtBtn: #ffffff;
 }
 
 html[data-theme='dark'] {
@@ -28,9 +30,11 @@ html[data-theme='dark'] {
   --colorTextSecondary: #282828;
   --colorTextThird: #27b783;
   --colorTextFourth: #ff1733;
-  --colorHeadFoor: #1f1d1d;
+  --colorHeadFoot: #1f1d1d;
   --colorTextForm: #f6e3e3;
   --colorBgForm: #028089;
   --colorBackgroundPhotoFrame: #6f6f6f;
   --colorInput: #028089;
+  --colorBtn: #151111;
+  --colorTxtBtn: #f6e3e3;
 }

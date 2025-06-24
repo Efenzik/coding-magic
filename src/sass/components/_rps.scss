@@ -32,7 +32,7 @@
   }
 
   .rps-option {
-    background-color: var(--colorTextPrimary);
+    background-color: var(--colorInput);
     width: 60px;
     height: 60px;
     border-radius: 20px;
@@ -77,8 +77,8 @@
     margin: 36px 0;
     font-weight: 500;
     font-size: 12px;
-    background-color: var(--colorTextPrimary);
-    color: var(--colorTextSecondary);
+    background-color: var(--colorBtn);
+    color: var(--colorTextForm);
   }
 
   .divider {

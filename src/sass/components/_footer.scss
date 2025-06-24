@@ -78,8 +78,8 @@
       }
 
       &__button {
-        background-color: var(--colorTextPrimary);
-        color: var(--colorTextSecondary);
+        background-color: var(--colorInput);
+        color: var(--colorTxtBtn);
         border: none;
         border-radius: 20px;
         padding: 10px 20px;
@@ -95,7 +95,7 @@
 
     .form-info {
       font-size: 10px;
-      color: #4d4d4d;
+      color: var(--colorTextPrimary);
       max-width: 260px;
     }
   }
