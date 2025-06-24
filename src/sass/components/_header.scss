@@ -43,26 +43,24 @@
   gap: 5px;
 }
 
-// .header__list-button {
-//   width: 10px;
-//   height: 10px;
-//   background-image: url(../images/header-down.svg);
-//   background-size: contain;
-//   border: none;
-//   cursor: pointer;
-// }
-
 .header__filter {
   position: absolute;
   top: 100%;
   left: 0;
   background: #ffffff;
-
   list-style: none;
-  padding: 10px 0;
   display: none;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+  z-index: 10;
 }
 
+.header__filter-item:hover {
+  background-color: #f1f1f1;
+}
 .header__list-item:hover .header__filter {
   display: block;
 }
