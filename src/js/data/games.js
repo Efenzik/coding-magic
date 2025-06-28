@@ -5,6 +5,9 @@ import { rpsInit } from '../games/rps';
 import { maxNumberGameInit } from '../games/maxnumber';
 import { DinosaurInit } from '../games/dinosaur';
 import { footballInit } from '../games/football';
+import { quessNumber } from '../games/quess-number';
+import { teamInit } from '../games/team';
+import { scientistInit } from '../games/scientists';
 
 export default [
   {
@@ -19,6 +22,7 @@ export default [
     name: 'Вгадай число',
     category: 'numerical',
     class: 'quess-number',
+    init: quessNumber,
   },
   {
     id: 3,
@@ -66,11 +70,13 @@ export default [
     name: 'Наша команда',
     category: 'acquaintance',
     class: 'team',
+    init: teamInit,
   },
   {
     id: 10,
     name: 'Вчений',
     category: 'acquaintance',
     class: 'scienties',
+    init: scientistInit,
   },
 ];

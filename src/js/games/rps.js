@@ -49,4 +49,57 @@ export const rpsInit = () => {
 </div>
 `;
   gameContainer.innerHTML = gameHtml;
+  // };
+  // let playerScore = 0;
+  // let computerScore = 0;
+  // let lastComp = '';
+
+  // const scorePlayer = document.getElementById('rps-player-score');
+  // const scoreComp = document.getElementById('rps-computer-score');
+  // const result = document.getElementById('rps-round-result');
+  // const showBtn = document.getElementById('rps-show-computer');
+
+  // function getCompChoice() {
+  //   const options = ['rock', 'paper', 'scissors'];
+  //   return options[Math.floor(Math.random() * options.length)];
+  // }
+
+  // function whoWins(p, c) {
+  //   if (p === c) return 'Нічия';
+  //   if (
+  //     (p === 'rock' && c === 'scissors')(p === 'paper' && c === 'rock')(
+  //       p === 'scissors' && c === 'paper'
+  //     )
+  //   ) {
+  //     playerScore++;
+  //     return 'Ви виграли!';
+  //   } else {
+  //     computerScore++;
+  //     return 'Комп’ютер виграв!';
+  //   }
+  // }
+
+  // function update(pick) {
+  //   const comp = getCompChoice();
+  //   lastComp = comp;
+
+  //   const res = whoWins(pick, comp);
+  //   result.textContent = res;
+
+  //   scorePlayer.textContent = playerScore;
+  //   scoreComp.textContent = computerScore;
+  //   showBtn.disabled = false;
+  // }
+
+  // function toText(choice) {
+  //   return choice === 'rock' ? 'Камінь' : choice === 'paper' ? 'Папір' : 'Ножиці';
+  // }
+
+  // document.getElementById('rps-rock').onclick = () => update('rock');
+  // document.getElementById('rps-paper').onclick = () => update('paper');
+  // document.getElementById('rps-scissors').onclick = () => update('scissors');
+
+  // showBtn.onclick = () => {
+  //   result.textContent += `Комп’ютер: ${toText(lastComp)}`;
+  //   showBtn.disabled = true;
 };

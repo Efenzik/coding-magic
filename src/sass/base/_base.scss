@@ -12,8 +12,20 @@ body {
   line-height: 1.25;
   background: var(--colorBg);
 }
+main {
+  background-image: url('../images/background-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .games__title {
   text-align: center;
   font-size: 24px;
-  margin-bottom: 36px;
+  padding-bottom: 36px;
+  background-color: #fff;
+  margin-inline: auto;
+}
+.main__container {
+  max-width: 1090px;
+  background-color: #fff;
+  margin-inline: auto;
 }

@@ -1,3 +1,5 @@
+import dandruff from '../../images/dandruff.svg'
+
 export const leapYearInit = () => {
   const gameContainer = document.querySelector('.leap-year');
 
@@ -10,7 +12,9 @@ export const leapYearInit = () => {
         min="0"
       />
       <button class="interactive__button">
-        <span class="interactive__icon">🔍</span>
+        <span class="interactive__icon">
+           <img src="${dandruff}" alt="лупа" class="search__icon">
+        </span>
       </button>
       <p class="interactive__result"></p>
     </form>

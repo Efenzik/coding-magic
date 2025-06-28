@@ -16,10 +16,9 @@ export const maxNumberGameInit = () => {
       </div>
     </div>
   `;
+  gameContainer.innerHTML = gameHtml;
 
   if (gameContainer) {
-    gameContainer.innerHTML = gameHtml;
-
     const form = document.querySelector('[data-max_number_form]');
     const outputElement = document.querySelector('[data-max_number_output]');
 
