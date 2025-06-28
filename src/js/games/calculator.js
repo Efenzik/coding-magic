@@ -77,7 +77,6 @@ export const calculatorInit = () => {
       />
     </div>
   </div>
-  <hr class="divider" />
 `;
   gameContainer.innerHTML = gameHtml;
 };
