@@ -5,8 +5,8 @@ const mainContainer = document.querySelector('[data-games]');
 const renderGames = (games, container) => {
   const html = games
     .map(
-      game => `<section id="${game.id}">
-    <div class="container">
+      game => `<section id="${game.id}" class="section__line">
+    <div class="container ">
     <div class="game ${game.class}"></div>
     </div>
     </section>`
