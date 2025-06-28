@@ -13,18 +13,17 @@
     align-items: center;
     gap: 38px;
     margin: 36px 0;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
   }
 
-
-  &__input{
+  &__input {
     box-shadow: $shadowForm;
   }
 
   &__input,
   &__result {
-    background-color: $colorBgForm;
-    color: $colorTextForm; 
+    background-color: var(--colorBgForm);
+    color: var(--colorTextForm);
     border-radius: 20px;
     width: 135px;
     height: 35px;
@@ -35,6 +34,7 @@
     &::placeholder {
       font-size: 12px;
       font-weight: 500;
+      color: var(--colorTextForm);
     }
 
     &::-webkit-inner-spin-button,
@@ -53,7 +53,7 @@
   &__operator {
     background-color: var(--colorTextPrimary);
     border-radius: 50%;
-    color: $colorTextSecondary;
+    color: var(--colorTextSecondary);
     width: 25px;
     height: 25px;
     box-shadow: shadowForm;
@@ -66,11 +66,9 @@
     &:hover {
       box-shadow: 1.5px 2.5px 3px 1.5px rgba(126, 126, 126, 1);
     }
-    &:focus{
-
+    &:focus {
       transform: scale(1.1.5);
       box-shadow: 0px 0px 5px 1.5px rgb(44, 0, 126);
-      
     }
 
     .operator__span {
