@@ -1,9 +1,9 @@
-import dandruff from '../../images/dandruff.svg'
+import dandruff from '../../images/dandruff.svg';
 
 export const quessNumber = () => {
-    const gameContainer = document.querySelector(".quess-number")
+  const gameContainer = document.querySelector('.quess-number');
 
-    const gameHtml = `<h2 class="interactive__title">Вгадай число, яке загадав комп’ютер</h2> 
+  const gameHtml = `<h2 class="interactive__title">Вгадай число, яке загадав комп’ютер</h2> 
      <form class="input-group">
       <input 
         type="number" 
@@ -16,28 +16,28 @@ export const quessNumber = () => {
           <img src="${dandruff}" alt="лупа" class="search__icon">
         </span>
       </button>
-      <p class="interactive__result"></p>
+      <p class="interactive__result interactive__result--2"></p>
     </form>
-    <div class="underline"></div>`
+    <div class="underline"></div>`;
 
-    gameContainer.innerHTML = gameHtml;
+  gameContainer.innerHTML = gameHtml;
 
-  const form = gameContainer.querySelector("form");
-  const input = form.querySelector(".quess__number__input");
-  const result = form.querySelector(".interactive__result");
+  const form = gameContainer.querySelector('form');
+  const input = form.querySelector('.quess__number__input');
+  const result = form.querySelector('.interactive__result');
 
-  const secretNumber = Math.floor(Math.random() * 10) + 1; 
+  const secretNumber = Math.floor(Math.random() * 10) + 1;
 
-  form.addEventListener("submit", (e) => {
+  form.addEventListener('submit', e => {
     e.preventDefault();
     const userGuessNumber = input.value;
 
     if (userGuessNumber == secretNumber) {
       result.textContent = `Вітаю, ви вгадали число! ${secretNumber}`;
-      result.style.color = "green";
+      result.style.color = 'green';
     } else {
       result.textContent = `Ви програли, комп’ютер загадав ${secretNumber}`;
-      result.style.color = "red";
+      result.style.color = 'red';
     }
   });
-}
+};
