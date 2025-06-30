@@ -27,11 +27,4 @@
   z-index: 2;
   transition: top 0.7s ease, left 0.7s ease;
 }
-.football::after {
-  content: '';
-  position: relative;
-  width: 536px;
-  height: 2px;
-  background-color: var(--colorTextPrimary);
-  top: 36px;
-}
+

@@ -20,7 +20,6 @@ main {
 .games__title {
   text-align: center;
   font-size: 24px;
-  padding-bottom: 36px;
   background-color: #fff;
   margin-inline: auto;
 }
@@ -28,4 +27,20 @@ main {
   max-width: 1090px;
   background-color: #fff;
   margin-inline: auto;
+}
+.section__line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 536px;
+    height: 1px;
+    background-color: var(--colorTextPrimary);
+    margin-bottom: 36px;
+    margin-top: 36px;
+  }
 }

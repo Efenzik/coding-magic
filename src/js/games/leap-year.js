@@ -1,11 +1,11 @@
-import dandruff from '../../images/dandruff.svg'
+import dandruff from '../../images/dandruff.svg';
 
 export const leapYearInit = () => {
   const gameContainer = document.querySelector('.leap-year');
 
   const gameHtml = `<h2 class="interactive__title">Перевір в який рік ти народився</h2> 
      <form class="input-group">
-      <input 
+     <input 
         type="number" 
         placeholder="Введіть рік народження" 
         class="interactive__input"
@@ -18,7 +18,11 @@ export const leapYearInit = () => {
       </button>
       <p class="interactive__result"></p>
     </form>
-    <div class="underline"></div>
+
+
+
+
+
     `;
 
   gameContainer.innerHTML = gameHtml;
@@ -34,10 +38,11 @@ export const leapYearInit = () => {
     const isLeap = (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
     if (isLeap) {
       result.textContent = 'Ви народилися у високосний рік!';
-      result.style.color = 'var(--colorTextThird)';
+      result.style.color = 'green';
     } else {
       result.textContent = 'Ви народилися не у високосний рік!';
-      result.style.color = 'var(--colorTextFourth)';
+      result.style.color = 'brown';
+
     }
   });
 };

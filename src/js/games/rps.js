@@ -45,7 +45,6 @@ export const rpsInit = () => {
     Варіант комп’ютера
   </button>
 
-  <hr class="divider" />
 </div>
 `;
   gameContainer.innerHTML = gameHtml;
