@@ -19,7 +19,7 @@ export const leapYearInit = () => {
       <p class="interactive__result"></p>
     </form>
 
-    <div class="underline"></div>
+
 
 
     `;
