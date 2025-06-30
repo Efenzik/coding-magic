@@ -18,7 +18,11 @@ export const quessNumber = () => {
       </button>
       <p class="interactive__result interactive__result--2"></p>
     </form>
+
     <div class="underline"></div>`;
+
+    `;
+
 
   gameContainer.innerHTML = gameHtml;
 

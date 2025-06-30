@@ -18,7 +18,10 @@ export const leapYearInit = () => {
       </button>
       <p class="interactive__result"></p>
     </form>
+
     <div class="underline"></div>
+
+
     `;
 
   gameContainer.innerHTML = gameHtml;
