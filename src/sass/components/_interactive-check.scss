@@ -20,13 +20,15 @@
   outline: none;
   width: 215px;
   border-bottom: 2px solid #c0bfbf;
-  background-color: #d7d7d7;
+  background-color: var(--colorBgForm);
   font-family: Monteserrat Alternates;
+  &::placeholder {
+    color: var(--colorTextForm);
+  }
 }
 
 .interactive__button {
-  background: black;
-  color: white;
+  background-color: var(--colorBtn);
   border: none;
   border-radius: 0 20px 20px 0;
   padding: 10px;
@@ -39,13 +41,10 @@
   margin-left: 149px;
   font-family: Monteserrat Alternates;
 }
-.interactive__result--2 {
-  margin-left: 202px;
-}
 .underline {
   width: 536px;
   height: 2px;
-  background-color: #00000091;
+  background-color: var(--colorTextPrimary);
   margin: 36px auto;
 }
 .quess__number__input {

@@ -22,6 +22,7 @@ export const leapYearInit = () => {
 
 
 
+
     `;
 
   gameContainer.innerHTML = gameHtml;
@@ -41,6 +42,7 @@ export const leapYearInit = () => {
     } else {
       result.textContent = 'Ви народилися не у високосний рік!';
       result.style.color = 'brown';
+
     }
   });
 };
