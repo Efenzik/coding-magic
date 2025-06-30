@@ -41,8 +41,7 @@ export const leapYearInit = () => {
       result.style.color = 'green';
     } else {
       result.textContent = 'Ви народилися не у високосний рік!';
-      result.style.color = 'brown';
-
+      result.style.color = 'red';
     }
   });
 };

@@ -17,7 +17,7 @@
   }
 
   &__input {
-    box-shadow: $shadowForm;
+    box-shadow: var(--shadowForm);
   }
 
   &__input,

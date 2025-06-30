@@ -46,7 +46,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background: var(--colorTextSecondary);
+  background-color: var(--colorTextSecondary);
   list-style: none;
   display: none;
   border-left: 1px solid #000000;
@@ -58,7 +58,7 @@
 }
 
 .header__filter-item:hover {
-  background-color: #f1f1f1;
+  background-color: var(--colorHeaderHover);
 }
 .header__list-item:hover .header__filter {
   display: block;

@@ -20,12 +20,13 @@ main {
 .games__title {
   text-align: center;
   font-size: 24px;
-  background-color: #fff;
+  background-color: var(--colorBg);
+
   margin-inline: auto;
 }
 .main__container {
   max-width: 1090px;
-  background-color: #fff;
+  background-color: var(--colorBg);
   margin-inline: auto;
 }
 .section__line {

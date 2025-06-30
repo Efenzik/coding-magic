@@ -19,7 +19,7 @@
   border: none;
   outline: none;
   width: 215px;
-  border-bottom: 2px solid #c0bfbf;
+  border-bottom: 2px solid var(--colorBottomBorder);
   background-color: var(--colorBgForm);
   font-family: Monteserrat Alternates;
   &::placeholder {
@@ -54,7 +54,13 @@
   border: none;
   outline: none;
   width: 150px;
-  border-bottom: 2px solid #c0bfbf;
-  background-color: #d7d7d7;
+  border-bottom: 2px solid var(--colorBottomBorder);
+  background-color: var(--colorBgForm);
   font-family: Monteserrat Alternates;
+  &::placeholder {
+    color: var(--colorTextForm);
+  }
+}
+.interactive__result--2 {
+  margin-left: 202px;
 }

@@ -21,6 +21,8 @@ $shadowForm: 2.2px 2.3px 0.5px 1px rgb(189, 189, 189);
   --colorInput: #000000;
   --colorBtn: #000000;
   --colorTxtBtn: #ffffff;
+  --colorBottomBorder: #c0bfbf;
+  --colorHeaderHover: #f1f1f1;
 }
 
 html[data-theme='dark'] {
@@ -37,4 +39,5 @@ html[data-theme='dark'] {
   --colorInput: #028089;
   --colorBtn: #151111;
   --colorTxtBtn: #f6e3e3;
+  --colorHeaderHover: #028089;
 }
