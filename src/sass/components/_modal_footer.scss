@@ -1,6 +1,9 @@
 .footer__modal__overlay {
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center;
@@ -10,7 +13,7 @@
 
 .modal__box {
   position: relative;
-  background: white;
+  background: #fff;
   border-radius: 15px;
   width: 463px;
   height: 245px;
@@ -24,7 +27,7 @@
   font-family: var(--font-secondary);
   width: 378px;
   height: 106px;
-  color: --colorTextPrimary;
+  color: var(--colorBtn);
 }
 
 .close__modal {
@@ -34,6 +37,7 @@
   font-size: 30px;
   cursor: pointer;
   background: transparent;
+  color: var(--colorBtn);
 }
 
 .footer__modal__icons {

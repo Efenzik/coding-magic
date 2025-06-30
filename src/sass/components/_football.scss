@@ -15,6 +15,7 @@
   height: 220px;
   background-color: var(--colorBgFootball);
   border-radius: 37px;
+  overflow: hidden;
 
   border: 2px solid var(--colorBtn);
 }
@@ -27,4 +28,3 @@
   z-index: 2;
   transition: top 0.7s ease, left 0.7s ease;
 }
-
