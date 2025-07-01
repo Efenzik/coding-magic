@@ -1,20 +1,48 @@
-// Кольори
-$colorTextSecondary: #ffffff;
-$colorTextThird: #039900;
-$colorTextForm: #7e7e7e;
-$colorBgForm: #d7d7d7;
-$colorBgFootball: #5abb58;
-$colorBackgroundPhotoFrame: #d9d9d9;
-
-// Шрифти
-
-
 // Тень
 $shadowForm: 2.2px 2.3px 0.5px 1px rgb(189, 189, 189);
+
+// Кольори
+// Шрифти
 :root {
+
     --font-primary: 'Montserrat Alternates', sans-serif;
     --font-secondary: 'Inter', sans-serif;
     --third-font: "Sacramento", sans-serif;
     --colorTextPrimary: #000000;
 
+
+  --colorBg: #ffffff;
+  --colorTextPrimary: #000000;
+  --colorTextSecondary: #ffffff;
+  --colorTextThird: #039900;
+  --colorTextFourth: #990000;
+  --colorHeadFoot: #ffffff;
+  --colorTextForm: #7e7e7e;
+  --colorBgForm: #d7d7d7;
+  --colorBgFootball: #5abb58;
+  --colorBackgroundPhotoFrame: #d9d9d9;
+  --colorTextHover: #0099ff;
+  --colorInput: #000000;
+  --colorBtn: #000000;
+  --colorTxtBtn: #ffffff;
+  --colorBottomBorder: #c0bfbf;
+  --colorHeaderHover: #f1f1f1;
+}
+
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+  --colorBg: #302e2e;
+  --colorTextPrimary: #f6f6f6;
+  --colorTextSecondary: #282828;
+  --colorTextThird: #27b783;
+  --colorTextFourth: #ff1733;
+  --colorHeadFoot: #1f1d1d;
+  --colorTextForm: #f6e3e3;
+  --colorBgForm: #028089;
+  --colorBackgroundPhotoFrame: #6f6f6f;
+  --colorInput: #028089;
+  --colorBtn: #151111;
+  --colorTxtBtn: #f6e3e3;
+  --colorHeaderHover: #028089;
 }

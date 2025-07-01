@@ -10,6 +10,7 @@ body {
   font-family: var(--font-primary);
   color: var(--colorTextPrimary);
   line-height: 1.25;
+  background: var(--colorBg);
 }
 main {
   background-image: url('../images/background-image.png');
@@ -19,12 +20,28 @@ main {
 .games__title {
   text-align: center;
   font-size: 24px;
-  padding-bottom: 36px;
-  background-color: #fff;
+  background-color: var(--colorBg);
+
   margin-inline: auto;
 }
 .main__container {
   max-width: 1090px;
-  background-color: #fff;
+  background-color: var(--colorBg);
   margin-inline: auto;
+}
+.section__line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 536px;
+    height: 1px;
+    background-color: var(--colorTextPrimary);
+    margin-bottom: 36px;
+    margin-top: 36px;
+  }
 }

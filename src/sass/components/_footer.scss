@@ -1,5 +1,5 @@
 .footer {
-  background-color: $colorTextSecondary;
+  background-color: var(--colorHeadFoot);
   padding: 40px 0;
   border-top: 1px solid gray;
 
@@ -36,13 +36,18 @@
 
     &__link {
       text-decoration: none;
-      color: #000000;
+
+      
       font-size: 12px;
+
+      color: var(--colorTextPrimary);
+     
+
       font-weight: 400;
       transition: color 0.3s ease;
 
       &:hover {
-        color: #0099ff;
+        color: var(--colorTextHover);
       }
     }
   }
@@ -79,8 +84,8 @@
       }
 
       &__button {
-        background-color: var(--colorTextPrimary);
-        color: $colorTextSecondary;
+        background-color: var(--colorInput);
+        color: var(--colorTxtBtn);
         border: none;
         border-radius: 20px;
         padding: 10px 20px;
@@ -96,7 +101,7 @@
 
     .form-info {
       font-size: 6px;
-      color: #4d4d4d;
+      color: var(--colorTextPrimary);
       max-width: 260px;
     }
   }
@@ -104,7 +109,7 @@
   .subscribe-popup {
     display: none;
     padding: 20px;
-    background: #fff;
+    background: var(--colorTextSecondary);
     border: 1px solid #ccc;
     border-radius: 10px;
 
@@ -119,7 +124,7 @@
 
     &__message {
       font-size: 14px;
-      color: #000;
+      color: var(--colorTextPrimary);
     }
   }
 }

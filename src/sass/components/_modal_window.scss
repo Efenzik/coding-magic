@@ -1,7 +1,9 @@
 .modal__overlay {
   position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
@@ -17,7 +19,7 @@
   padding: 46px 92px 47px 92px;
   text-align: center;
   font-family: var(--font-secondary);
-  position: relative; 
+  position: relative;
 }
 
 .modal__text {
@@ -43,10 +45,10 @@
   margin-bottom: 18px;
   border-radius: 20px;
   border: 1px solid #ccc;
-  background-color: $colorBgForm;
-  color: $colorTextForm;
+  background-color: var(--colorBgForm);
+  color: var(--colorTextForm);
   font-family: var(--font-primary);
-} 
+}
 
 .modal__button {
   width: 120px;
@@ -57,7 +59,7 @@
   color: white;
   cursor: pointer;
   font-size: 14px;
-  box-shadow: $shadowForm;
+  box-shadow: var(--shadowForm);
 }
 
 .modal .close-btn {

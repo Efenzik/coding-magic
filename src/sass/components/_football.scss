@@ -12,10 +12,10 @@
   position: relative;
   width: 720px;
   height: 220px;
-  background-color: #5abb58;
+  background-color: var(--colorBgFootball);
   border-radius: 37px;
 
-  border: 2px solid #000000;
+  border: 2px solid var(--colorBtn);
 }
 .football__ball {
   position: absolute;
@@ -26,11 +26,4 @@
   z-index: 2;
   transition: top 0.7s ease, left 0.7s ease;
 }
-.football::after {
-  content: '';
-  position: relative;
-  width: 536px;
-  height: 2px;
-  background-color: #00000091;
-  top: 36px;
-}
+

@@ -1,59 +1,71 @@
 .interactive__title {
-        font-weight: 400;
-        line-height: 100%;
-        margin-bottom: 36px;
-        text-align: center;
-        font-size: 16px;
-    }
-    .input-group {
-      display: flex;
-      justify-content: center;
-      margin: 10px 0;
-      flex-wrap: wrap;
-      overflow: hidden;       
-      flex-wrap: nowrap;         
-    }
-    .interactive__input {
-      padding: 10px;
-      border-radius: 20px 0 0 20px;
-      border: 1px solid #ccc;
-      border: none; 
-      outline: none;
-      width: 215px;
-      border-bottom: 2px solid #c0bfbf;
-      background-color: #D7D7D7;
-      font-size: 12px;
-    }
-
-    .interactive__button {
-      background: black;
-      color: white;
-      border: none;
-      border-radius: 0 20px 20px 0;
-      padding: 10px;
-      cursor: pointer;
-      display: flex;  
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 36px;
+  text-align: center;
+  font-size: 16px;
 }
-    .interactive__result {
-      margin: 0;
-      margin-top: 10px;
-      margin-left: 149px;
-      font-size: 12px;
-    }
-    .underline {
-      width: 536px;
-      height: 2px;
-      background-color: #00000091;
-      margin: 36px auto;
-    }
-    .quess__number__input {
-      padding: 10px;
-      border-radius: 20px 0 0 20px;
-      border: 1px solid #ccc;
-      border: none; 
-      outline: none;
-      width: 150px;
-      border-bottom: 2px solid #c0bfbf;
-      background-color: #D7D7D7;
-      font-size: 12px;
-    }
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+.interactive__input {
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid #ccc;
+  border: none;
+  outline: none;
+  width: 215px;
+  border-bottom: 2px solid var(--colorBottomBorder);
+  background-color: var(--colorBgForm);
+  font-family: Monteserrat Alternates;
+  &::placeholder {
+    color: var(--colorTextForm);
+  }
+}
+
+.interactive__button {
+  background-color: var(--colorBtn);
+  border: none;
+  border-radius: 0 20px 20px 0;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+}
+.interactive__result {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 149px;
+  font-size: 12px;
+  font-family: Monteserrat Alternates;
+}
+.underline {
+  width: 536px;
+  height: 2px;
+  background-color: var(--colorTextPrimary);
+  margin: 36px auto;
+}
+.quess__number__input {
+  font-size: 12px;
+
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid #ccc;
+  border: none;
+  outline: none;
+  width: 150px;
+  border-bottom: 2px solid var(--colorBottomBorder);
+  background-color: var(--colorBgForm);
+  font-family: Monteserrat Alternates;
+  &::placeholder {
+    color: var(--colorTextForm);
+  }
+}
+.interactive__result--2 {
+  margin-left: 202px;
+}
