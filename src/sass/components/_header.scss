@@ -31,6 +31,14 @@
   position: relative;
 }
 
+.header__secondlist-link {
+  transition: 0.2s ease;
+}
+.header__secondlist-link:hover {
+  color: var(--colorHeaderFooterHover);
+  transition: 0.2s ease;
+}
+
 .header__list-link {
   text-decoration: none;
   color: var(--colorTextPrimary);

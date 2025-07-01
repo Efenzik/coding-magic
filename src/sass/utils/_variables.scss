@@ -4,12 +4,10 @@ $shadowForm: 2.2px 2.3px 0.5px 1px rgb(189, 189, 189);
 // Кольори
 // Шрифти
 :root {
-
-    --font-primary: 'Montserrat Alternates', sans-serif;
-    --font-secondary: 'Inter', sans-serif;
-    --third-font: "Sacramento", sans-serif;
-    --colorTextPrimary: #000000;
-
+  --font-primary: 'Montserrat Alternates', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+  --third-font: 'Sacramento', sans-serif;
+  --colorTextPrimary: #000000;
 
   --colorBg: #ffffff;
   --colorTextPrimary: #000000;
@@ -27,8 +25,8 @@ $shadowForm: 2.2px 2.3px 0.5px 1px rgb(189, 189, 189);
   --colorTxtBtn: #ffffff;
   --colorBottomBorder: #c0bfbf;
   --colorHeaderHover: #f1f1f1;
+  --colorHeaderFooterHover: #028089;
 }
-
 
 html[data-theme='dark'] {
   color-scheme: dark;
@@ -45,4 +43,5 @@ html[data-theme='dark'] {
   --colorBtn: #151111;
   --colorTxtBtn: #f6e3e3;
   --colorHeaderHover: #028089;
+  --colorHeaderFooterHover: #7e7e7e;
 }
