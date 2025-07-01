@@ -1,0 +1,52 @@
+.calc-time-title {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+
+.calct-input {
+  max-width: 135px;
+  height: 35px;
+  padding: 10px 20px;
+  border-radius: 25px 0 0 25px;
+  background-color: var(--colorBgForm);
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
+  color: var(--colorTextForm);
+
+  &::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--colorTextForm);
+  }
+}
+
+.calc-container {
+  gap: 36px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calc-main-information {
+  margin-bottom: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.calct-button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  background-color: var(--colorBtn);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 10px 10px;
+  background-image: url(../images/dandruff.svg);
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+.calct-skip {
+  margin-right: 33px;
+  margin-left: 33px;
+}

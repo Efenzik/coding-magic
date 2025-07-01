@@ -3,6 +3,7 @@ import { leapYearInit } from '../games/leap-year';
 import { footballInit } from '../games/football';
 import { rpsInit } from '../games/rps';
 import { maxNumberGameInit } from '../games/maxnumber';
+import { calcTimeInit } from '../games/time-calc';
 import { DinosaurInit } from '../games/dinosaur';
 import { footballInit } from '../games/football';
 import { quessNumber } from '../games/quess-number';
@@ -42,7 +43,8 @@ export default [
     id: 5,
     name: 'Калькулятор часу',
     category: 'numerical',
-    class: 'time-calculator',
+    class: 'calculator-time',
+    init: calcTimeInit,
   },
   {
     id: 6,
