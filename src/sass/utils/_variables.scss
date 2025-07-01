@@ -4,8 +4,12 @@ $shadowForm: 2.2px 2.3px 0.5px 1px rgb(189, 189, 189);
 // Кольори
 // Шрифти
 :root {
-  --font-primary: 'Montserrat Alternates', sans-serif;
-  --font-secondary: 'Inter', sans-serif;
+
+    --font-primary: 'Montserrat Alternates', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+    --third-font: "Sacramento", sans-serif;
+    --colorTextPrimary: #000000;
+
 
   --colorBg: #ffffff;
   --colorTextPrimary: #000000;
@@ -24,6 +28,7 @@ $shadowForm: 2.2px 2.3px 0.5px 1px rgb(189, 189, 189);
   --colorBottomBorder: #c0bfbf;
   --colorHeaderHover: #f1f1f1;
 }
+
 
 html[data-theme='dark'] {
   color-scheme: dark;

@@ -36,8 +36,13 @@
 
     &__link {
       text-decoration: none;
+
+      
+      font-size: 12px;
+
       color: var(--colorTextPrimary);
-      font-size: 16px;
+     
+
       font-weight: 400;
       transition: color 0.3s ease;
 
@@ -70,7 +75,7 @@
         border-radius: 20px;
         border: none;
         background-color: #e4e4e4;
-        font-size: 14px;
+        font-size: 12px;
         width: 200px;
 
         &::placeholder {
@@ -85,7 +90,7 @@
         border-radius: 20px;
         padding: 10px 20px;
         cursor: pointer;
-        font-size: 14px;
+        font-size: 12px;
         transition: background-color 0.3s;
 
         &:hover {
@@ -95,7 +100,7 @@
     }
 
     .form-info {
-      font-size: 10px;
+      font-size: 6px;
       color: var(--colorTextPrimary);
       max-width: 260px;
     }
