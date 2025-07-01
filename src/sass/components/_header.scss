@@ -133,3 +133,11 @@
   position: absolute;
   transform: translateX(8);
 }
+@media (max-width: 760px) {
+  .header__list-item:first-child {
+    display: flex;
+  }
+  .header__list-item {
+    display: none;
+  }
+}

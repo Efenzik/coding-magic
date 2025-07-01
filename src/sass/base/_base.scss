@@ -23,6 +23,7 @@ main {
   background-color: var(--colorBg);
 
   margin-inline: auto;
+  margin-top: 36px;
 }
 .main__container {
   max-width: 1090px;
@@ -43,5 +44,15 @@ main {
     background-color: var(--colorTextPrimary);
     margin-bottom: 36px;
     margin-top: 36px;
+  }
+}
+
+@media (max-width: 676px) {
+  .section__line {
+    &::before {
+      content: '';
+
+      width: 410px;
+    }
   }
 }
